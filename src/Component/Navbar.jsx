@@ -12,9 +12,10 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
+  Text,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-// import resume from "../docs/Neerav_Khatri_Resume.pdf";
+import resume from "../docs/Kunal_Deotale_Resume.pdf";
 
 const Navbar = () => {
   return (
@@ -41,13 +42,13 @@ const Navbar = () => {
               <Link href="#contact" class="nav-link contact">
                 Contact
               </Link>
-              <Link href="" download class="nav-link resume">
+              <Link href={resume} download class="nav-link resume">
                 <Button
                   color="#3e2723"
                   bgColor="#ff7043"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1W1sxkvVZOshxEcAixTGUe8Wt9r0oxjhj/view"
+                      "https://drive.google.com/file/d/1W1sxkvVZOshxEcAixTGUe8Wt9r0oxjhj/view?usp=sharing"
                     )
                   }
                 >
@@ -90,13 +91,13 @@ const Navbar = () => {
                   </Link>
                 </MenuItem>
                 <MenuItem bgColor="#ff7043">
-                  <Link href="" download class="nav-link resume">
+                  <Link href={resume} download class="nav-link resume">
                     <Button
                       color="#3e2723"
                       bgColor="#ffe0b2"
                       onClick={() =>
                         window.open(
-                          "https://drive.google.com/file/d/1W1sxkvVZOshxEcAixTGUe8Wt9r0oxjhj/view"
+                          "https://drive.google.com/file/d/1W1sxkvVZOshxEcAixTGUe8Wt9r0oxjhj/view?usp=sharing"
                         )
                       }
                     >

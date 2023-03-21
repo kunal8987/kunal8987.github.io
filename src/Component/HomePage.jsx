@@ -11,34 +11,41 @@ import {
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { GoMail } from "react-icons/go";
 import Profile from "../docs/Kunal.JPG";
-// import resume from "../docs/Neerav_Khatri_Resume.pdf";
+import resume from "../docs/Kunal_Deotale_Resume.pdf";
 
 export default function HomePage() {
   return (
     <div>
       <Box id="home" w="80%" m="auto" mt="5%" color="#3e2723" p="30px">
-        <Flex direction={{ sm: "column", lg: "row" }} gap="30px">
+        <Flex
+          direction={{ base: "column", sm: "column", lg: "row" }}
+          gap="30px"
+        >
           <Box
-            w={{ sm: "100%", lg: "50%" }}
+            w={{ base: "100%", sm: "100%", lg: "50%" }}
             display="flex"
             justifyContent="center"
             alignItems="center"
           >
             <Stack direction="column">
               <Box textAlign="left">
-                <Heading fontSize="3em">Hello!</Heading>
-                <Heading fontSize="3em">I'am Kunal</Heading>
-                <Heading fontSize="3em">Full-Stack Developer</Heading>
+                <Heading fontSize={{ base: "2em", md: "3em" }}>Hello!</Heading>
+                <Heading fontSize={{ base: "2em", md: "3em" }}>
+                  I'am Kunal
+                </Heading>
+                <Heading fontSize={{ base: "2em", md: "3em" }}>
+                  Full-Stack Developer
+                </Heading>
               </Box>
-              <Link href='' download textAlign="left">
+              <Link href={resume} download textAlign="left">
                 <Button
-                  bgColor="#ff7043"
                   color="#3e2723"
+                  bgColor="#ff7043"
                   fontSize="1.5em"
-                  w="40%"
+                  w="60%"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1W1sxkvVZOshxEcAixTGUe8Wt9r0oxjhj/view"
+                      "https://drive.google.com/file/d/1W1sxkvVZOshxEcAixTGUe8Wt9r0oxjhj/view?usp=sharing"
                     )
                   }
                 >
@@ -62,15 +69,17 @@ export default function HomePage() {
             </Stack>
           </Box>
           <Box
-            w={{ sm: "100%", lg: "50%" }}
+            class="home-img"
+            w={{ sm: "70%" }}
             display="flex"
             justifyContent="center"
             alignItems="center"
           >
             <Image
+              class="home-img"
               src={Profile}
               alt="Kunal Profile Picture"
-              w="80%"
+              w="60%"
               borderRadius="10px"
             />
           </Box>

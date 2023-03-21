@@ -4,15 +4,15 @@ import { GoMail } from "react-icons/go";
 import { MdAddIcCall } from "react-icons/md";
 
 export default function Contact() {
-  return (        
-    <div>               
+  return (
+    <div>
       <Box id="contact" bgColor="#5d4037" color="#e0e0e0" mt="5%" p="30px">
         <Heading textDecoration="underline" color="#ff7043" mb="5%" mt="2%">
           Contact
         </Heading>
         <Heading>Kunal Deotale</Heading>
         <Flex
-          direction={{ sm: "column", lg: "column", xl: "row" }}
+          direction={{ base: "column", sm: "column", lg: "column", xl: "row" }}
           gap="10px"
           mt="30px"
           mb="3%"
@@ -24,6 +24,7 @@ export default function Contact() {
             justifyContent="center"
             alignItems="center"
             gap="10px"
+            id="contact-phone"
           >
             <Link href="">
               <MdAddIcCall size="3em" />
@@ -38,6 +39,7 @@ export default function Contact() {
             justifyContent="center"
             alignItems="center"
             gap="10px"
+            id="contact-github"
           >
             <Link href="https://github.com/kunal8987" isExternal>
               <BsGithub size="3em" />
@@ -52,6 +54,7 @@ export default function Contact() {
             justifyContent="center"
             alignItems="center"
             gap="10px"
+            id="contact-linkedin"
           >
             <Link
               href="https://www.linkedin.com/in/kunal-deotale-976b10246/"
@@ -72,6 +75,7 @@ export default function Contact() {
             justifyContent="center"
             alignItems="center"
             gap="10px"
+            id="contact-email"
           >
             <Link href="mailto:kdeotale4@gmail.com" isExternal>
               <GoMail size="3em" />
