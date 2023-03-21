@@ -12,7 +12,7 @@ export default function Contact() {
         </Heading>
         <Heading>Kunal Deotale</Heading>
         <Flex
-          direction={{ base: "column", sm: "column", lg: "column", xl: "row" }}
+          direction={{ base: "column", sm: "column", lg: "row", xl: "row" }}
           gap="10px"
           mt="30px"
           mb="3%"

@@ -66,11 +66,8 @@ export default function Skills() {
         {
             src : "https://img.icons8.com/color/512/npm.png",
             name : "NPM",
-        },
-        {
-            src : "https://cdn.worldvectorlogo.com/logos/postman.svg",
-            name : "Postman",
         }
+       
     ]
 
     return (

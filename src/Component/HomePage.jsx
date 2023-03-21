@@ -29,11 +29,13 @@ export default function HomePage() {
           >
             <Stack direction="column">
               <Box textAlign="left">
-                <Heading fontSize={{ base: "2em", md: "3em" }}>Hello!</Heading>
-                <Heading fontSize={{ base: "2em", md: "3em" }}>
+                <Heading fontSize={{ base: "2.5em", md: "3.5em", lg: "4rem" }}>
+                  Hello!
+                </Heading>
+                <Heading fontSize={{ base: "2.5em", md: "3.5em", lg: "4rem" }}>
                   I'am Kunal
                 </Heading>
-                <Heading fontSize={{ base: "2em", md: "3em" }}>
+                <Heading fontSize={{ base: "2.5em", md: "3.5em", lg: "4rem" }}>
                   Full-Stack Developer
                 </Heading>
               </Box>
@@ -41,6 +43,8 @@ export default function HomePage() {
                 <Button
                   color="#3e2723"
                   bgColor="#ff7043"
+                  m={"10px"}
+                  p="15px"
                   fontSize="1.5em"
                   w="60%"
                   onClick={() =>
@@ -70,7 +74,8 @@ export default function HomePage() {
           </Box>
           <Box
             class="home-img"
-            w={{ sm: "70%" }}
+            w={{ base: "100%", sm: "100%", lg: "50%" }}
+            // w="70%"
             display="flex"
             justifyContent="center"
             alignItems="center"
@@ -79,7 +84,7 @@ export default function HomePage() {
               class="home-img"
               src={Profile}
               alt="Kunal Profile Picture"
-              w="60%"
+              w="75%"
               borderRadius="10px"
             />
           </Box>

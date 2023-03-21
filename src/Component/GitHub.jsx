@@ -3,7 +3,7 @@ import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 export default function Github() {
   return (
     <div>
-      <Box w="80%" m="auto" mt="5%" p="30px">
+      <Box w="70%" m="auto" mt="5%" p="30px">
         <Box>
           <Heading textDecoration="underline" color="#3e2723" mb="5%">
             Github Statistics
@@ -39,7 +39,7 @@ export default function Github() {
           </Heading>
           <Box className="react-activity-calendar">
             <Image
-            width={{ base: "100%", sm: "100%" }}
+              width={{ base: "100%", sm: "100%" }}
               m="auto"
               bgColor="#e0e0e0"
               borderRadius="5px"

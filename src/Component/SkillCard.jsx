@@ -18,11 +18,15 @@ export default function SkillCard({ src, name }) {
             alignItems="center"
             h={{ base: "15vh", sm: "20vh", md: "20vh", lg: "25vh" }}
           >
-            <Image  w="40%" src={src} alt={name} />
+            <Image
+              w={{ base: "40%", sm: "40%", md: "45%", lg: "55%" }}
+              src={src}
+              alt={name}
+            />
           </Box>
           <Text
             class="skills-card-name"
-            fontSize={{ base: "sm", sm: "md", md: "lg", lg: "2xl" }}
+            fontSize={{ base: "md", sm: "md", md: "xl", lg: "3xl" }}
           >
             {name}
           </Text>
