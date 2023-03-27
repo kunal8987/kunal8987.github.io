@@ -15,10 +15,8 @@ import resume from "../docs/Kunal_Deotale_Resume.pdf";
 
 export default function About() {
   return (
-    <div>
+    <div className="about section"  id="about">
       <Box
-        id="about"
-        className="about section"
         w="80%"
         m="auto"
         mt="5%"
@@ -40,8 +38,8 @@ export default function About() {
             fontSize={{ base: "md", md: "2xl" }}
             w="80%"
           >
-            A full stack developer, with 1200+ hours of coding experience,
-            practice 300+ hours of Data structure and algorithms. High
+            A full stack developer, with 1200+ hours of coding practice,
+             300+ hours of Data structure and algorithms. High
             adaptability to learn and collaborate in a rapidly changing
             environment. Looking forward to working as a web developer with a
             reputed firm driven by technology.{" "}

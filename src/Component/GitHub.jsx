@@ -25,8 +25,9 @@ export default function Github() {
                 alt="Strek"
               />
             </Box>
-            <Box id="github-top-langs">
+            <Box>
               <Image
+                id="github-top-langs"
                 src="https://github-readme-stats.vercel.app/api/top-langs/?username=kunal8987&theme=dark"
                 alt="Language"
               />

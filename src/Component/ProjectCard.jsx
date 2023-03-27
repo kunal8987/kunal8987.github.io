@@ -13,14 +13,8 @@ import { SiNetlify } from "react-icons/si";
 
 export default function ProjectCard({ data }) {
   return (
-    <div>
-      <Box
-        class="project-card"
-        border="1px solid #3e2723"
-        borderRadius="20px"
-        p="20px"
-        mt="20px"
-      >
+    <div className="project-card">
+      <Box border="1px solid #3e2723" borderRadius="20px" p="20px" mt="20px">
         <Flex
           direction={{ base: "column", sm: "column", lg: "row" }}
           gap="20px"
@@ -41,7 +35,7 @@ export default function ProjectCard({ data }) {
           <Box w={{ sm: "100%", lg: "50%" }}>
             <VStack w="80%" m="auto">
               <Heading
-                class="project-title"
+                className="project-title"
                 fontWeight="bold"
                 mb="30px"
                 fontSize={{ base: "xl", md: "5xl" }}
@@ -49,7 +43,7 @@ export default function ProjectCard({ data }) {
                 {data.name}
               </Heading>
               <Text
-                class="project-description"
+                className="project-description"
                 fontSize={{ base: "sm", md: "lg" }}
               >
                 {data.desc}
@@ -59,7 +53,7 @@ export default function ProjectCard({ data }) {
                   Tech Stack:
                 </Text>
                 <Text
-                  class="project-tech-stack"
+                  className="project-tech-stack"
                   fontSize={{ base: "sm", md: "lg" }}
                 >
                   {data.stack}
@@ -67,13 +61,13 @@ export default function ProjectCard({ data }) {
               </Box>
             </VStack>
             <Box m="auto" mt="20px">
-              <Link class="project-github-link" href={data.github} isExternal>
-                <Button bgColor="#ff7043" color="#3e2723" gap="10px" mr="20px">
+              <Link className="project-github-link" href={data.github} isExternal>
+                <Button bgColor="#ff7043" color="#3e2723" gap="10px" m="20px">
                   Github
                   <BsGithub />
                 </Button>
               </Link>
-              <Link class="project-deployed-link" href={data.deploy} isExternal>
+              <Link className="project-deployed-link" href={data.deploy} isExternal>
                 <Button bgColor="#ff7043" color="#3e2723" gap="10px">
                   Deployed
                   <SiNetlify />

@@ -2,9 +2,8 @@ import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
 export default function SkillCard({ src, name }) {
   return (
-    <div>
+    <div className="skills-card">
       <Box
-        class="skills-card"
         textAlign="center"
         border="1px solid #3e2723"
         borderRadius="20px"
@@ -12,7 +11,7 @@ export default function SkillCard({ src, name }) {
       >
         <Flex flexDirection={"column"}>
           <Box
-            class="skills-card-img"
+            className="skills-card-img"
             display="flex"
             justifyContent="center"
             alignItems="center"
@@ -25,7 +24,7 @@ export default function SkillCard({ src, name }) {
             />
           </Box>
           <Text
-            class="skills-card-name"
+            className="skills-card-name"
             fontSize={{ base: "md", sm: "md", md: "xl", lg: "3xl" }}
           >
             {name}
