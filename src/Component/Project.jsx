@@ -33,8 +33,8 @@ export default function Project() {
             name: "Crystara",
             desc: "We have clone the website Caratlane.com. CaratLane is an Indian physical and online jewelry retailer. We have given a unique name called Crystara and logo our website.",
             stack: "HTML | CSS | JavaScript |  ReactJs | Chakra-Ui | NextJs | Redux |JSON server",
-            github: "https://github.com/Neerav-Khatri/woozy-humor-2945",
-            deploy: "",
+            github: "https://github.com/Neerav-Khatri/Crystara",
+            deploy: "https://crystara-swart.vercel.app/",
         },
         {
             id: 4,

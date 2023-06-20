@@ -25,9 +25,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    #normal{
+    /* #normal{
         display: none;
-    }
+    } */
     #hamburger{
         display: initial;
     }

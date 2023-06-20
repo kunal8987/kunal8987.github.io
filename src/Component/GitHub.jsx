@@ -13,15 +13,17 @@ export default function Github() {
             direction={{ base: "column", sm: "column", lg: "row", xl: "row" }}
             gap="10px"
           >
-            <Box id="github-stats-card">
+            <Box>
               <Image
-                src="https://camo.githubusercontent.com/32f8241a4739dfdb553ef0a14d847e47a31b8cdae086a9e5ff7d416a956c3ba2/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d6b756e616c383938372673686f775f69636f6e733d74727565266c6f63616c653d656e267468656d653d726561637426686964655f626f726465723d747275652662675f636f6c6f723d304431313137"
+                id="github-stats-card"
+                src="https://github-readme-stats.vercel.app/api?username=kunal8987"
                 alt="Stats"
               />
             </Box>
-            <Box id="github-streak-stats">
+            <Box>
               <Image
-                src="https://camo.githubusercontent.com/0dee9080cbcc6f3f387fae6f56db60269bf978ee55336b4fd3f1116f902db553/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d6b756e616c3839383726686964655f626f726465723d74727565267468656d653d726561637426686964655f626f726465723d747275652662675f636f6c6f723d304431313137"
+                id="github-streak-stats"
+                src="https://github-readme-streak-stats.herokuapp.com?user=kunal8987"
                 alt="Strek"
               />
             </Box>

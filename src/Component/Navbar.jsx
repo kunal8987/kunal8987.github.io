@@ -27,25 +27,35 @@ const Navbar = () => {
           </Box>
           <Box id={style.normal}>
             <HStack gap="30px" fontSize="20px">
-              <Box className="nav-link home">
-                <Link href="#home">Home</Link>
+              <Box>
+                <Link className="nav-link home" href="#home">
+                  Home
+                </Link>
               </Box>
-              <Box className="nav-link about">
-                <Link href="#about">About Me</Link>
+              <Box>
+                <Link className="nav-link about" href="#about">
+                  About Me
+                </Link>
               </Box>
-              <Box className="nav-link skills">
-                <Link href="#skills">Skills</Link>
+              <Box>
+                <Link className="nav-link skills" href="#skills">
+                  Skills
+                </Link>
               </Box>
-              <Box className="nav-link projects">
-                <Link href="#projects">Project</Link>
+              <Box>
+                <Link className="nav-link projects" href="#projects">
+                  Project
+                </Link>
               </Box>
-              <Box className="nav-link contact">
-                <Link href="#contact">Contact</Link>
+              <Box>
+                <Link className="nav-link contact" href="#contact">
+                  Contact
+                </Link>
               </Box>
-              <Box className="nav-link resume">
-                <Link href={resume} download>
+              <Box>
+                <Link className="nav-link resume" href={resume} download>
                   <Button
-                    id="resume-link-1"
+                    id="resume-button-1"
                     color="#3e2723"
                     bgColor="#ff7043"
                     onClick={() =>
@@ -70,35 +80,35 @@ const Navbar = () => {
               <MenuList bgColor="#ff7043" textAlign="center" closeOnSelect>
                 <MenuItem
                   bgColor="#ff7043"
-                  className="nav-link home"
+                  // className="nav-link home"
                   color="#3e2723"
                 >
                   <Link href="#home">Home</Link>
                 </MenuItem>
                 <MenuItem
                   bgColor="#ff7043"
-                  className="nav-link about"
+                  // className="nav-link about"
                   color="#3e2723"
                 >
                   <Link href="#about">About Me</Link>
                 </MenuItem>
                 <MenuItem
                   bgColor="#ff7043"
-                  className="nav-link skills"
+                  // className="nav-link skills"
                   color="#3e2723"
                 >
                   <Link href="#skills">Skills</Link>
                 </MenuItem>
                 <MenuItem
                   bgColor="#ff7043"
-                  className="nav-link projects"
+                  // className="nav-link projects"
                   color="#3e2723"
                 >
                   <Link href="#projects">Project</Link>
                 </MenuItem>
                 <MenuItem
                   bgColor="#ff7043"
-                  className="nav-link contact"
+                  // className="nav-link contact"
                   color="#3e2723"
                 >
                   <Link href="#contact">Contact</Link>
@@ -106,7 +116,7 @@ const Navbar = () => {
                 <MenuItem bgColor="#ff7043">
                   <Link href={resume} download>
                     <Button
-                      id="resume-link-1"
+                      // id="resume-button-1"
                       color="#3e2723"
                       bgColor="#ffe0b2"
                       onClick={() =>
