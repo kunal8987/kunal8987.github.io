@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.03bc2009.css",
-    "main.js": "/static/js/main.f5ec9514.js",
+    "main.css": "/static/css/main.4c6a9a86.css",
+    "main.js": "/static/js/main.55afd87e.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Zee5.png": "/static/media/Zee5.68dfbac828a4e9380feb.png",
     "static/media/Crystara.png": "/static/media/Crystara.595662b7b9c7840ecf66.png",
     "static/media/urban company.png": "/static/media/urban company.87b95734b7fd6c3b2b70.png",
+    "static/media/Kunal_Deotale_Resume.pdf": "/static/media/Kunal_Deotale_Resume.c4663d837edaa25847b9.pdf",
     "static/media/Job finder.png": "/static/media/Job finder.114eb2553bbee8d8c1c7.png",
-    "static/media/Kunal.JPG": "/static/media/Kunal.af1c74671b4ece5f4835.JPG",
-    "static/media/Kunal-Deotale-Resume.pdf": "/static/media/Kunal-Deotale-Resume.2a6fbbed91f40179f6cb.pdf",
+    "static/media/Kunal.JPG": "/static/media/Kunal.380b40ba957c651fc2d3.JPG",
     "index.html": "/index.html",
-    "main.03bc2009.css.map": "/static/css/main.03bc2009.css.map",
-    "main.f5ec9514.js.map": "/static/js/main.f5ec9514.js.map",
+    "main.4c6a9a86.css.map": "/static/css/main.4c6a9a86.css.map",
+    "main.55afd87e.js.map": "/static/js/main.55afd87e.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03bc2009.css",
-    "static/js/main.f5ec9514.js"
+    "static/css/main.4c6a9a86.css",
+    "static/js/main.55afd87e.js"
   ]
 }
